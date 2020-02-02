@@ -20,7 +20,8 @@ scalacOptions ++= Seq(
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
 libraryDependencies ++= Seq(
-  "org.typelevel"    %% "spire"         % "0.14.1",
-  "org.scodec"       %% "scodec-core"   % "1.10.3",
-  "org.scalatest"    %% "scalatest"     % "3.0.5"      % "test"
+  "org.typelevel"    %% "spire"          % "0.14.1",
+  "org.scodec"       %% "scodec-core"    % "1.10.3",
+  "eu.timepit"       %% "refined-scodec" % "0.9.12",
+  "org.scalatest"    %% "scalatest"      % "3.0.5"      % "test"
   )
